@@ -13,7 +13,7 @@
 
 body {
     margin: 0;
-    background-image: url(/img/blackboard.jpg);
+    background-image: url(img/blackboard.jpg);
     background-size: cover;
     font-family: 'Manrope', sans-serif;
 }
