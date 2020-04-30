@@ -12,6 +12,7 @@
 body {
     margin: 0;
     background-image: url(blackboard.jpg);
+    background-size: cover;
 }
 
 input {
