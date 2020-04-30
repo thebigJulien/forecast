@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+
 #form {
     display: block;
     text-align: center;
@@ -11,8 +13,9 @@
 
 body {
     margin: 0;
-    background-image: url(img/blackboard.jpg);
+    background-image: url(/images/blackboard.jpg);
     background-size: cover;
+    font-family: 'Manrope', sans-serif;
 }
 
 input {
@@ -30,7 +33,6 @@ button {
     margin: 1vw auto;
     outline: none;
     font-size: 1.6vw;
-    font-family: 'Franklin Gothic';
     background: rgb(247, 0, 255);
     border: 0.1vw solid transparent;
     padding: 1.1vw;
@@ -44,17 +46,10 @@ button:hover {
     cursor: pointer;
 }
 
-#container {
-    display: flex;
-    margin: 1vw auto;
-    flex-wrap: wrap;
-}
-
 #weather div {
     border: 0.1vw solid black;
     padding: 1.5vw 2vw;
     font-size: 2.5vw;
-    font-family: tahoma;
     margin: 1.5vw 0.8vw;
     width: 27vw;
 }
@@ -62,9 +57,4 @@ button:hover {
 h3 {
     text-align: center;
     margin: 0.2vw 0;
-}
-
-footer {
-    display: flex;
-    align-items: center;
 }
